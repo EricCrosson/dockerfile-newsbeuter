@@ -25,4 +25,4 @@ Current configuration
 Add urls by editing the file ``.newsbeuter/urls``. Current list of feeds
 includes
 
-.. include:: .newsbeuter/urls
+.. literalinclude:: .newsbeuter/urls
