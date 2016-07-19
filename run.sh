@@ -8,7 +8,7 @@ set -e
 set -x
 
 [[ $(which docker-compose) ]] || {
-    echo <<'EOF'
+    cat <<'EOF'
 Error: Not found in PATH: `docker-compose`
 Aborting: Install `docker-compose` with pip
 EOF
