@@ -1,7 +1,7 @@
 dockerfile-newsbeuter
 =====================
 
-``newsbeuter`` is the ``mutt`` of rss feed readers.
+:code:`newsbeuter_` is the ``mutt`` of rss feed readers.
 
 .. _newsbeuter: http://www.newsbeuter.org/
 
