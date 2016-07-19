@@ -25,4 +25,6 @@ Current configuration
 Add urls by editing the file ``.newsbeuter/urls``. Current list of feeds
 includes
 
+    http://blog.qt.io/feed/
+
 .. literalinclude:: .newsbeuter/urls
