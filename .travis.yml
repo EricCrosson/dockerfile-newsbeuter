@@ -1,0 +1,12 @@
+---
+language: python
+  - 2.7
+
+services:
+  - docker
+
+install: 
+  - docker build -t newsbeuter .
+
+script:
+  - docker run -it --rm newsbeuter newsbeuter -v
