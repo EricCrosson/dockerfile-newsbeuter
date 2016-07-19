@@ -1,0 +1,8 @@
+version: '2'
+
+services: 
+  newsbeuter:
+    image: newsbeuter
+    build: .
+    volumes:
+    - "/home/eric/workspace/dockerfile-newsbeuter/.newsbeuter:/home/rss/.newsbeuter:rw"
